@@ -11,13 +11,13 @@ function verificaChute(chute) {
         return
     }
     if (numero == numeroAleatorio) {
-        document.body.innerHTML = `<h2>Você acertou!<h2>
+        document.body.innerHTML = `<h2>VocÃª acertou!<h2>
                   <h3> O numero secreto era ${numeroAleatorio}
                      <button id = "jogar-novamente" class = "btn-jogar">Jogar Novamente</button> `
 
     }
 
-    else if (numero > numeroAleatorio) {
+    else if (numero < numeroAleatorio) {
         elementoChute.innerHTML += `<div> o numero secreto e maior <i class = "fa-solid fa-up-long"></i></div>`
     }
     else {
