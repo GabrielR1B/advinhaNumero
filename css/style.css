@@ -1,0 +1,53 @@
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --bg-color: #277BC0;
+    --primary-color: #FFDE00;
+    --secondary-color: #3EC70B;
+}
+
+body{
+    font-family:var(--font-family);
+    background-color:var(--bg-color);
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    margin:0;
+   
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 4em;
+}
+
+h3 {
+    color: var(--secondary-color);
+    font-size: 2em;
+}
+.mensagem {
+    color: var(--secondary-color);
+    font-weight:bold;
+    font-size:1.5em;
+    margin-top:40px;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display:inline-block;
+    padding:0.5em;
+    font-size:2em;
+    background-color:white;
+    color:black;
+}
+
+.btn-jogar{
+    padding:8px 15px;
+    border: 0;
+    background:var(--primary-color);
+    border-radius:5px;
+    margin-top:20px;
+
+}
